@@ -1,0 +1,8 @@
+---
+ - hosts: all 
+   gather_facts: No
+   tasks:
+     - name: Check Ping Connectivity
+       ping:
+     - debug: 
+          var: x 

@@ -1,0 +1,8 @@
+- hosts: all
+  vars:
+    x: "5"    
+    y: "30"
+  tasks:
+    - debug:
+#        msg: "the value of x = {{x}}"
+        msg: "the value of y = {{y}}"

@@ -1,0 +1,7 @@
+---
+- hosts: prod
+  tasks:
+    - name: copy file
+      copy:
+        src: /tmp/edu.txt
+        dest: /tmp

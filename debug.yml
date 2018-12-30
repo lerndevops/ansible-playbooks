@@ -1,0 +1,8 @@
+---
+ - hosts: all 
+   vars:
+     x: 20
+   tasks:
+     - name: printing a message
+       debug:
+          var: x 

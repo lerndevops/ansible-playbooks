@@ -1,0 +1,8 @@
+- hosts: dev 
+  tasks:
+    - shell: ls /tmp
+      register: a
+
+    - debug:
+      #  
+         msg: "{{a.stdout}}"

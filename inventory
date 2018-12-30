@@ -1,0 +1,6 @@
+[dev]
+172.31.24.194 ansible_ssh_user=edureka ansible_ssh_pass=devops x=30
+172.31.26.68 ansible_ssh_user=edureka ansible_ssh_pass=devops x=20
+
+[prod]
+172.31.28.28 ansible_ssh_user=devops ansible_ssh_pass=devops x=10
