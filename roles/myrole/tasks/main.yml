@@ -1,9 +1,0 @@
----
-# tasks file for myrole
-- name: copy file
-  copy:
-    src: mycode.java
-    dest: /tmp
-- name: variables 
-  debug:
-     msg: "the value of x = {{x}}"

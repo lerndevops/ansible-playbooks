@@ -1,8 +1,0 @@
----
- - hosts: dev 
-#   become: yes
-   tasks: 
-     - name: Create a new file
-       file: 
-        path: /tmp/newfolder
-        state: directory
